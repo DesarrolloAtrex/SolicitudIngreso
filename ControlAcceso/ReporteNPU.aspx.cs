@@ -88,7 +88,7 @@ namespace SistemaSolicitudIngreso.Reportes
         {
             if (rblTipoIngreso.SelectedValue == "0")
             {
-                ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", string.Format("swal('¡Debe seleccionar Tipo de Ingreso!');", Title), true);
+                ScriptManager.RegisterStartupScript(Page, this.GetType(), "alert", string.Format("swal('¡Debe seleccionar Tipo de Ingreso se modifica archivo para cambios GitHUB!');", Title), true);
                 return;
             }
 
