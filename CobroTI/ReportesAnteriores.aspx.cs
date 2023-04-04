@@ -12,6 +12,7 @@ using System.Web.UI.WebControls;
 
 public partial class CobroTI_ReportesAnteriores : System.Web.UI.Page
 {
+	//Semodifica linea ejemplo GitHUB
     private DataTable dtTablaTotales
     {
         get
